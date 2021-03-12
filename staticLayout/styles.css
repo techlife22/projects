@@ -1,3 +1,14 @@
+#header {
+    width: 100%;
+    height: 164px;
+    background-color: #000;
+    position:absolute;
+    display: flex;
+    justify-content:center
+}
+#logo {
+    
+}
 body    {
-    background-color: aqua;
+    background-color: #000;
 }
