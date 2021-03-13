@@ -1,14 +1,26 @@
+/* @font-face and @ import below used to use StarWars site font */
+@font-face {font-family: "DINNextW01-Regular"; src: url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.eot"); src: url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.woff") format("woff"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.svg#DINNextW01-Regular") format("svg"); }
+
+@import url(//db.onlinewebfonts.com/c/1daa609fdca8da38e5bcbb12c2a987db?family=DINNextW01-Regular);
+
 #header {
     width: 100%;
     height: 164px;
     background-color: #000;
     position:absolute;
     display: flex;
-    justify-content:center
+    justify-content:center;
+    border: 2px solid yellow;
 }
-#logo {
-    
-}
+
 body    {
     background-color: #000;
+    border: 2px solid rgb(17, 0, 255);
+    height: 800 px;
+}
+main    {
+    
+    font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: antiquewhite;
 }
