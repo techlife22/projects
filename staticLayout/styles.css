@@ -1,26 +1,153 @@
 /* @font-face and @ import below used to use StarWars site font */
-@font-face {font-family: "DINNextW01-Regular"; src: url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.eot"); src: url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.woff") format("woff"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.svg#DINNextW01-Regular") format("svg"); }
+@font-face {
+  font-family: "DINNextW01-Regular";
+  src: url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.eot");
+  src: url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/1daa609fdca8da38e5bcbb12c2a987db.svg#DINNextW01-Regular")
+      format("svg");
+}
 
 @import url(//db.onlinewebfonts.com/c/1daa609fdca8da38e5bcbb12c2a987db?family=DINNextW01-Regular);
 
 #header {
-    width: 100%;
-    height: 164px;
-    background-color: #000;
-  
-    display: flex;
-    justify-content:center;
-    border: 2px solid yellow;
-}
-
-body    {
-    background-color: #000;
-    border: 2px solid rgb(17, 0, 255);
+  width: 100%;
+  height: 170px;
+  background-color: #000;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  border: 2px solid yellow;
+  color: white;
  
 }
-main    {
-    
-    font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    color: white;
+nav {
+    height: 20px;
+    margin-top: 100px;
 }
+{
+nav ul
+    padding: 0px;
+}
+
+nav ul li{
+    display: inline;
+    justify-content: center;
+    height: 20px;
+    width: 600px;
+    background-color: gray;
+
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+#logo {
+ display:block;
+ justify-content: center;
+  height: 140px;
+  width: 160px;
+}
+
+main {
+  background-color: #000;
+  border: 2px solid rgb(17, 0, 255);
+  font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: red;
+ 
+}
+#leia {
+    margin-top: 10em;
+  display: flex;
+  justify-content: center;
+  height: 627px;
+  width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.middle {
+    font-size: 14px;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+   
+    color: white;
+    
+}
+.middleOne  {
+    display: inline-flex;
+    justify-content: center;
+    height: 80px;
+    width: 200px;
+    background-color: gray;
+   margin-left: auto;
+   margin-right: auto;
+    
+    
+}
+.highRepublic {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+    
+}
+#colorbox   {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(50, 88, 137);
+    height: 510px;
+    width: 70%;
+    margin-top: 0;
+}
+
+.logo-title {
+    position: absolute;
+    top:1100px;
+    right: 600px;
+}
+#era    {
+    color: rgb(246,246,246);
+    position: absolute;
+    top: 1285px;
+    right:770px;
+    font-size: 18px;
+    font: 800;
+    letter-spacing: .2px;
+}
+#explore {
+    background-color: #DAAF59;
+    color: black;
+    border-color: #DAAF59;
+    height: 30px;
+    width: 90.047px;
+    position: absolute;
+    top: 1340px;
+    right:810px;
+    font-size: 16px;
+    text-align: center;
+    margin: 8px 0px 7px 0px;
+    padding: 10px 32px 7px 32px;
+    text-align: center;
+    text-decoration-line: none;
+    background: #DAAF59;
+    border-radius: 4px;
+}
+
+<div ></div>
+
+
