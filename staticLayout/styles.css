@@ -51,7 +51,7 @@
   justify-content: center;
   height: 110px;
   width: 248px;
-  background: url(./assets/starWarsLogo.png) no-repeat;
+  background: url(assets/starWarsLogo.png) no-repeat;
 }
 /* Search bar in the upper right */
 .searchbar {
