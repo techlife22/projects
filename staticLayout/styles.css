@@ -27,24 +27,20 @@
   color: white;
 }
 .nav {
-  
   justify-content: center;
   letter-spacing: 1px;
   height: 20px;
   margin: 0;
-  
 }
 
 .nav li {
   list-style-type: none;
-  
 }
 .nav li a {
-    display:flex;
+  display: flex;
   color: white;
   text-decoration: none;
-  justify-content:space-evenly;
-  
+  justify-content: space-evenly;
 }
 
 .logo a {
@@ -61,7 +57,9 @@ main {
   font-family: "DIN Next W01 Regular", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: red;
-  background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_00cbf8a9.jpeg?region=0%2C0%2C2048%2C1600); background-size: 1600px auto; }
+  background-image: url(https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_00cbf8a9.jpeg?region=0%2C0%2C2048%2C1600);
+  background-size: 1600px auto;
+}
 
 #leia {
   margin-top: 10em;
@@ -74,54 +72,54 @@ main {
 }
 
 .middle {
-    margin-top: -80px;
+  margin-top: -80px;
   font-size: 14px;
   display: flex;
-  align-content:center;
+  align-content: center;
   justify-content: center;
-  
 }
 .middle a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 .middleOne {
   display: inline-flex;
   justify-content: center;
   height: 80px;
   width: 200px;
- 
+
   margin-right: 14px;
- background: url('https://lumiere-a.akamaihd.net/v1/images/twisw-0311-new-swcom-slide-desktop-_2_c5e59931.jpeg?region=0,0,2048,870&width=320')no-repeat;
+  background: url("https://lumiere-a.akamaihd.net/v1/images/twisw-0311-new-swcom-slide-desktop-_2_c5e59931.jpeg?region=0,0,2048,870&width=320")
+    no-repeat;
 }
 .middleTwo {
-    display: inline-flex;
-    justify-content: center;
-    height: 80px;
-    width: 200px;
-    
-    margin-right: 14px;
-    background: url('https://lumiere-a.akamaihd.net/v1/images/which-leia-are-you-new-swcom-slide-desktop-_2_4092301d.jpeg?region=0,0,2048,870&width=320') no-repeat;
-    
-  
+  display: inline-flex;
+  justify-content: center;
+  height: 80px;
+  width: 200px;
+
+  margin-right: 14px;
+  background: url("https://lumiere-a.akamaihd.net/v1/images/which-leia-are-you-new-swcom-slide-desktop-_2_4092301d.jpeg?region=0,0,2048,870&width=320")
+    no-repeat;
 }
-.middleThree{
-    display: inline-flex;
-    justify-content: center;
-    height: 80px;
-    width: 200px;
-    
-    margin-right: 14px;
-    background: url('https://lumiere-a.akamaihd.net/v1/images/thrawn-ascendancy-greater-good-new-swcom-slide-desktop-_0253380a.jpeg?region=0,0,2048,870&amp;width=320') no-repeat;
+.middleThree {
+  display: inline-flex;
+  justify-content: center;
+  height: 80px;
+  width: 200px;
+
+  margin-right: 14px;
+  background: url("https://lumiere-a.akamaihd.net/v1/images/thrawn-ascendancy-greater-good-new-swcom-slide-desktop-_0253380a.jpeg?region=0,0,2048,870&amp;width=320")
+    no-repeat;
 }
-.middleFour{
-    display: inline-flex;
-    justify-content: center;
-    height: 80px;
-    width: 200px;
-    
-    
-    background: url('https://lumiere-a.akamaihd.net/v1/images/iwd-2021-hero-desktop-c_badde14a.jpeg?region=0,0,2048,870&width=320') no-repeat;
+.middleFour {
+  display: inline-flex;
+  justify-content: center;
+  height: 80px;
+  width: 200px;
+
+  background: url("https://lumiere-a.akamaihd.net/v1/images/iwd-2021-hero-desktop-c_badde14a.jpeg?region=0,0,2048,870&width=320")
+    no-repeat;
 }
 .highRepublic {
   display: flex;
@@ -174,11 +172,10 @@ main {
   top: 1340px;
   right: 810px;
   font-size: 16px;
-  text-align:center;
+  text-align: center;
   margin: 8px 0px 7px 0px;
   text-align: center;
   text-decoration-line: none;
   background: #daaf59;
   border-radius: 4px;
 }
-
