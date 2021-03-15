@@ -47,9 +47,29 @@
   display: block;
   justify-content: center;
   height: 110px;
-  width: 200px;
+  width: 248px;
   background: url(assets/starWarsLogo.png) no-repeat;
 }
+.searchbar {
+  color: rgb(170,170,170);
+  top: 20px;
+  right: 240px;
+  position: absolute;
+  width: 248px;
+  height: 40px;
+padding: 2px;
+
+}
+ .searchinput {
+   text-align:left;
+  background-color: black;
+}
+
+.signup a:link{
+color:  rgb(170,170,170);
+}
+
+ 
 
 main {
   background-color: #000;
